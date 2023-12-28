@@ -4,6 +4,7 @@ var project = [
       nama: 'Al-fatihah',
       ayat: '7 ayat',
       tempat: 'makkiyah',
+      link: '/Module/1.html'
    },
    {
      id: 1,
@@ -69,7 +70,7 @@ var project = [
 //load data produk ke sistem
 const page = document.querySelector('.content-box');
 page.innerHTML = katagori.map((item => {
-   var {nama, ayat , tempat} = item;
+   var {nama, ayat , tempat, link} = item;
    
    return(
       `
@@ -77,7 +78,10 @@ page.innerHTML = katagori.map((item => {
       <div class="card-nama"><h1>${nama}</h1></div>
       <div class="card-subtext"><p>ayat: ${ayat}</p></div>
       <div class="card-subtext"><p>${tempat}</p></div>
+      <a href = "${link}">Read</a>
     </div>
       `
       )
 })).join('')
+
+//toggle darkmode

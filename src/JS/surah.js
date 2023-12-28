@@ -1,9 +1,11 @@
+
 var project = [
    {
       id: 0,
       nama: 'Al-fatihah',
       ayat: '7 ayat',
       tempat: 'makkiyah',
+      link: '/Module/1.html'
    },
    {
      id: 1,
@@ -60,529 +62,92 @@ var project = [
      tempat: 'Makkiyah',
    },
    {
-     id: 10,
-     nama: 'Hud',
-     ayat: '123 ayat',
-     tempat: 'Makkiyah',
+      id: 10,
+      nama: '',
+      ayat: '',
+      tempat: '',
+      link: ''
    },
    {
      id: 11,
-     nama: 'Yusuf',
-     ayat: '111 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
-     id: 12,
-     nama: "Ar-Ra'd",
-     ayat: '43 ayat',
-     tempat: 'Madaniyah',
+      id: 12,
+      nama: '',
+      ayat: '',
+      tempat: '',
+      link: ''
    },
    {
      id: 13,
-     nama: 'Ibrahim',
-     ayat: '52 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 14,
-     nama: 'Al-Hijr',
-     ayat: '99 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 15,
-     nama: 'An-Nahl',
-     ayat: '128 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 16,
-     nama: 'Al-Isra',
-     ayat: '111 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 17,
-     nama: 'Al-Kahf',
-     ayat: '110 ayat',
-     tempat: 'Makkiyah ',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 18,
-     nama: 'Maryam',
-     ayat: '98 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 19,
-     nama: 'Thaha',
-     ayat: '135 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 20,
-     nama: 'Al-Anbiya',
-     ayat: '112 ayat',
-     tempat: 'Makkiyah',
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
    },
    {
      id: 21,
-     nama: ' Al-Hajj',
-     ayat: '78 ayat',
-     tempat: 'Madaniyah',
-   },
-   {
-     id: 22,
-     nama: 'Al-Mukminun',
-     ayat: '118 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 23,
-     nama: ' An-Nur',
-     ayat: '64 ayat',
-     tempat: 'Madaniyah',
-   },
-   {
-     id: 24,
-     nama: 'Al-Furqan',
-     ayat: '77 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 25,
-     nama: "Asy-Syu'ara",
-     ayat: '227 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 26,
-     nama: 'An-Naml',
-     ayat: '93 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 27,
-     nama: ' Al-Qashash',
-     ayat: '88 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 28,
-     nama: 'Al-Ankabut',
-     ayat: '69 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 29,
-     nama: ' Ar-Rum',
-     ayat: '60 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 30,
-     nama: ' Lukman',
-     ayat: '34 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 31,
-     nama: 'As-Sajdah',
-     ayat: '30 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 34,
-     nama: 'Al-Ahzab',
-     ayat: '73 ayat',
-     tempat: 'Madaniyah',
-   },
-   {
-     id: 35,
-     nama: 'Surah Saba',
-     ayat: '54 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 36,
-     nama: ' Fathir',
-     ayat: '45 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 37,
-     nama: 'Yasin',
-     ayat: '83 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 38,
-     nama: 'Ash-Shaffat',
-     ayat: '182 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 39,
-     nama: 'Shad',
-     ayat: '88 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 40,
-     nama: 'Az-Zumar',
-     ayat: '75 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 41,
-     nama: ' Ghafir',
-     ayat: '85 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 42,
-     nama: 'Fusshilat',
-     ayat: '54 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 43,
-     nama: 'Asy-Syura',
-     ayat: '53 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 44,
-     nama: 'Az-Zukhruf',
-     ayat: '89 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 45,
-     nama: 'Ad-Dukhan',
-     ayat: '59 ayat',
-     tempat: 'Makkiyah',
-   },
-   {
-     id: 46,
      nama: '',
      ayat: '',
      tempat: '',
-   },
-   {
-     id: 47,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 48,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 49,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 50,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 51,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 52,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 53,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 54,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 55,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 56,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 57,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 58,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 59,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 60,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 61,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 62,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 63,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 64,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 65,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 66,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 67,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 68,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 69,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 70,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 71,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 72,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 73,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 74,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 75,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 77,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 78,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 79,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 80,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 81,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 82,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 83,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 84,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 85,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 86,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 87,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 88,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 89,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 90,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 91,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 92,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 93,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 94,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 95,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 96,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 97,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 98,
-     nama: '',
-     ayat: '',
-     tempat: '',
-   },
-   {
-     id: 99,
-     nama: '',
-     ayat: '',
-     tempat: '',
+     link: ''
    },
 
    ];
+   //meload arry ke dalam sebuah item
    const katagori = [...new Set(project.map((item => {
       return item;
    })))];
@@ -590,7 +155,7 @@ var project = [
 //load data produk ke sistem
 const page = document.querySelector('.content-box');
 page.innerHTML = katagori.map((item => {
-   var {nama, ayat , tempat} = item;
+   var {nama, ayat , tempat, link} = item;
    
    return(
       `
@@ -598,6 +163,7 @@ page.innerHTML = katagori.map((item => {
       <div class="card-nama"><h1>${nama}</h1></div>
       <div class="card-subtext"><p>ayat: ${ayat}</p></div>
       <div class="card-subtext"><p>${tempat}</p></div>
+      <a href = "${link}">Read</a>
     </div>
       `
       )

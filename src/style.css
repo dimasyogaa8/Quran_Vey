@@ -84,3 +84,18 @@ font-weight: bold;
   backdrop-filter: blur(15px);
   box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 }
+.surah {
+  width: 100%;
+  height: auto;
+  margin: 3% 0;
+  border: 1px solid black;
+}
+
+.surah h2{
+  font-weight: bold;
+}
+.surah span{
+  color: #878787;
+}
+.surah p{
+}
