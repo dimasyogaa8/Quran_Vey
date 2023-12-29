@@ -154,7 +154,7 @@ var project = [
      tempat: 'Madaniyah',
      link: '/Module/22.html'
    },
-   {
+   /*{
      id: 22,
      nama:'',
      ayat: '',
@@ -307,7 +307,7 @@ var project = [
      ayat: '',
      tempat: '',
      link: ''
-   },
+   },*/
 
    ];
    //meload arry ke dalam sebuah item
