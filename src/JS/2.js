@@ -1,9 +1,16 @@
+const au = document.querySelector('.audio');
 const cont = document.querySelector('.container')
 fetch('https://quran-api.santrikoding.com/api/surah/2')
     .then(response => response.json())
     .then(data => {
       console.log(data);
       const sur = data.ayat;
+      const audio = data.audio;
+      console.log(audio)
+      au.innerHTML = `<audio controls>
+    <source src="${audio}" type="audio/mpeg">
+    Browsermu tidak mendukung tag audio, upgrade donk!
+  </audio>`;
       console.log(sur);
       for (var i = 0; i < 286; i++) {
         const ayatDiv = document.createElement('div');
@@ -12,7 +19,7 @@ fetch('https://quran-api.santrikoding.com/api/surah/2')
         const latin = sur[i].tr;
         const no = sur[i].nomor;
             ayatDiv.className = 'surah';
-            ayatDiv.innerHTML = `<h2>${ayat}</h2><span>${latin}</span></br><p>${no}.${arti}</p>`;
+            ayatDiv.innerHTML = `</br><h2>${ayat}</h2><span>${latin}</span></br><p>${no}.${arti}</p>`;
             cont.appendChild(ayatDiv);
       }
         
