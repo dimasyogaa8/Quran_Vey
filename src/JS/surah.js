@@ -72,83 +72,237 @@ var project = [
    },
    {
       id: 10,
-      nama: '',
-      ayat: '',
-      tempat: '',
-      link: ''
+      nama: ' Hud',
+      ayat: '123 ayat',
+      tempat: 'Makkiyah',
+      link: '/Module/11.html'
    },
    {
      id: 11,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: ' Yusuf',
+     ayat: '111 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/12.html'
    },
    {
       id: 12,
-      nama: '',
-      ayat: '',
-      tempat: '',
-      link: ''
+      nama: "Ar-Ra'd",
+      ayat: '43 ayat',
+      tempat: 'Madaniyah',
+      link: '/Module/13.html'
    },
    {
      id: 13,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: 'Ibrahim',
+     ayat: '52 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/14.html'
    },
    {
      id: 14,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: 'Al-Hijr',
+     ayat: '99 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/15.html'
    },
    {
      id: 15,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: ' An-Nahl',
+     ayat: '128 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/16.html'
    },
    {
      id: 16,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: ' Al-Isra',
+     ayat: '111 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/17.html'
    },
    {
      id: 17,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: 'Al-Kahf',
+     ayat: '110 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/18.html'
    },
    {
      id: 18,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: ' Maryam',
+     ayat: '98 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/19.html'
    },
    {
      id: 19,
-     nama: '',
-     ayat: '',
-     tempat: '',
-     link: ''
+     nama: 'Thaha',
+     ayat: '135 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/20.html'
    },
    {
      id: 20,
+     nama: ' Al-Anbiya',
+     ayat: '112 ayat',
+     tempat: 'Makkiyah',
+     link: '/Module/21.html'
+   },
+   {
+     id: 21,
+     nama: ' Al-Hajj',
+     ayat: '78 ayat',
+     tempat: 'Madaniyah',
+     link: '/Module/22.html'
+   },
+   {
+     id: 22,
+     nama:'',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 23,
+     nama:'',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 24,
      nama: '',
      ayat: '',
      tempat: '',
      link: ''
    },
    {
-     id: 21,
+     id: 25,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 26,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 27,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 28,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 29,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 30,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 31,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 32,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 33,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 34,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 35,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 36,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 37,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 38,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 39,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 40,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 41,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 42,
+     nama: '',
+     ayat: '',
+     tempat: '',
+     link: ''
+   },
+   {
+     id: 43,
      nama: '',
      ayat: '',
      tempat: '',

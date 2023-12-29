@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cutive+Mono&family=Fira+Code:wght@300&family=Noto+Naskh+Arabic:wght@400;700&family=Poppins:wght@100;200;900&family=Roboto:ital,wght@1,900&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  background: black;
-  color: white;
+  color: black;
 }
 .Navbar {
   width: 100%;
   height: 60px;
   display: flex;
-  justify-items: center;
-  align-content: center;
+  justify-content: space-between;
+  justify-items: center; /* Mengganti justify-items menjadi justify-content */
+  align-content: center; /* Mengganti align-content menjadi align-items */
+}
+.btns {
+  margin: auto 5%;
 }
 .logo {
   margin: auto 1%;
@@ -28,7 +32,11 @@ body {
 }
 .content {
   padding: 2% 2%;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Poppins', sans-serif;
+
+}
+.content p{
+  font-size: 25px;
 }
 
 .content span{
@@ -52,18 +60,21 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .card {
   width: 45%;
-  height: 100px;
-  border: 1px solid white;
-  margin: 3% 2%;
+  height: 150px;
+  border: 1px solid black;
+  margin: 1%  2%;
   border-radius: 8px;
   text-align: left;
   
 
 }
+
 .hamdal {
   text-align: center;
+  font-family: 'Noto Naskh Arabic', serif;
 }
 .audio {
   display: flex;
@@ -76,13 +87,14 @@ body {
 }
 .card-nama h1{
 font-size: 20px;
-font-family: 'Cutive Mono', monospace;
+font-family: 'Poppins', sans-serif;
 font-weight: bold;
 }
 .card-subtext {
   padding: 0 3%;
   font-size: 15px;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Poppins', sans-serif;
+
 }
 .btn {
   text-align: center;
@@ -99,28 +111,194 @@ font-weight: bold;
   height: auto;
   padding: 5% 2%;
   margin: 3% auto;
-  border: 1px solid white;
+  border: 3px solid grey;
   border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
   
 }
 
 .surah h2{
   font-weight: bold;
   text-align: right;
-  font-size: 30px;
+  font-size: 38px;
+  font-family: 'Noto Naskh Arabic', serif;
   
 }
 .surah span{
-  color: white;
-  font-weight: bold;
+  font-size: 22px;
+  padding: 2% 0;
+
+}
+.surah strong {
 }
 .surah p{
- font-size: 15px;
+ font-size: 25px;
  padding: 2% 0;
+ font-family: 'Poppins', sans-serif;
+
+}
+.card a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+
+  padding: 2% 2%;
+}
+/*menu pak*/
+.menu {
+  width: 45%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width: 760px) {
+.Navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center; /* Mengganti justify-items menjadi justify-content */
+  align-content: center; /* Mengganti align-content menjadi align-items */
+}
+.btns {
+  margin: auto 5%;
+}
+.logo {
+  margin: auto 1%;
+}
+.logo h1{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.logo span{
+  color: deepskyblue;
+  font-size: 15px;
+}
+.content {
+  padding: 2% 2%;
+  font-family: 'Poppins', sans-serif;
+
+}
+.content p{
+  font-size: 15px;
+}
+.content span{
+  font-weight: bold;
+}
+.content-surah {
+  width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+.content-surah h2{
+  padding: 0 2%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.content-box {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.card {
+  width: 45%;
+  height: 100px;
+  border: 1px solid black;
+  margin: 1%  1%;
+  border-radius: 8px;
+  text-align: left;
+  
+
+}
+.hamdal {
+  text-align: center;
+  font-family: 'Noto Naskh Arabic', serif;
+}
+.audio {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card-nama {
+  padding: 2% 2%;
+}
+.card-nama h1{
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+
+font-weight: bold;
+}
+.card-subtext {
+  padding: 0 3%;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.btn {
+  text-align: center;
+}
+.btn a{
+  text-decoration: none;
+  color: grey;
+}
+.card:hover {
+  box-shadow: 2px 2px 0px rgba(255, 255, 255, 1)
+}
+.surah {
+  width: 95%;
+  height: auto;
+  padding: 5% 2%;
+  margin: 3% auto;
+  border: 3px solid grey;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  
+}
+
+.surah h2{
+  font-weight: bold;
+  text-align: right;
+  font-size: 29px;
+  font-family: 'Noto Naskh Arabic', serif;
+  
+}
+.surah span{
+  font-size: 12px;
+
+}
+.surah strong {
+}
+.surah p{
+ font-size: 12px;
+ padding: 2% 0;
+ font-family: 'Poppins', sans-serif;
+
 }
 .card a{
   text-decoration: none;
   color: white;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Poppins', sans-serif;
+
   padding: 2% 2%;
+}
+/*menu pak*/
+.menu {
+  width: 45%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 1;
+}
+
 }
