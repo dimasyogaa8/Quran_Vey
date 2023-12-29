@@ -145,14 +145,14 @@ font-weight: bold;
 
   padding: 2% 2%;
 }
-/*menu pak*/
+/*/*menu pak
 .menu {
   width: 45%;
   height: 100px;
   background: rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: 1;
-}
+}*/
 
 @media (max-width: 760px) {
 .Navbar {
@@ -292,13 +292,13 @@ font-weight: bold;
 
   padding: 2% 2%;
 }
-/*menu pak*/
+/*menu pak
 .menu {
   width: 45%;
   height: 100px;
   background: rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: 1;
-}
+}*/
 
 }
