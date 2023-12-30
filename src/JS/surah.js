@@ -326,7 +326,7 @@ page.innerHTML = katagori.map((item => {
       <div class="card-nama"><h1>${nama}</h1></div>
       <div class="card-subtext"><p>ayat: ${ayat}</p></div>
       <div class="card-subtext"><p>${tempat}</p></div>
-      <a href = "${link}">Read</a>
+      <a href = "${link}" class="btn-card">Read</a>
     </div>
       `
       )

@@ -327,8 +327,8 @@ page.innerHTML = katagori.map((item => {
       `
       )
 })).join('')
-
+//saat btn di klik
 function btn() {
-  console.log('jalan bosku')
+  //console.log('jalan bosku')
   menu.classList.toggle('toggle')
 }
