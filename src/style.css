@@ -14,6 +14,11 @@ body {
   justify-content: space-between;
   justify-items: center; /* Mengganti justify-items menjadi justify-content */
   align-content: center; /* Mengganti align-content menjadi align-items */
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
 }
 .btns {
   margin: auto 5%;
@@ -33,6 +38,7 @@ body {
 .content {
   padding: 2% 2%;
   font-family: 'Poppins', sans-serif;
+  margin-top: 5%;
 
 }
 .content p{
@@ -75,6 +81,7 @@ body {
 .hamdal {
   text-align: center;
   font-family: 'Noto Naskh Arabic', serif;
+  margin-top: 5%;
 }
 .audio {
   display: flex;
@@ -145,15 +152,39 @@ font-weight: bold;
 
   padding: 2% 2%;
 }
-/*/*menu pak
-.menu {
-  width: 45%;
-  height: 100px;
-  background: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  z-index: 1;
-}*/
 
+.menu {
+  width: 75%;
+  height: 700px;
+  display: none; /* Mengatur menu awalnya menjadi tersembunyi */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  z-index: 1000; /* Jangan lupa menambahkan z-index agar menu tetap di atas konten lain */
+  overflow: scroll;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 0;
+  font-weight: bold;
+  margin: auto;
+  font-size: 20px;
+}
+
+.menu.toggle {
+  display: flex;
+  /* Menampilkan menu saat class 'toggle' aktif */
+  flex-direction: column;
+}
 @media (max-width: 760px) {
 .Navbar {
   width: 100%;
@@ -181,6 +212,7 @@ font-weight: bold;
 .content {
   padding: 2% 2%;
   font-family: 'Poppins', sans-serif;
+  margin-top: 15%;
 
 }
 .content p{
@@ -222,6 +254,7 @@ font-weight: bold;
 .hamdal {
   text-align: center;
   font-family: 'Noto Naskh Arabic', serif;
+  margin-top: 15%;
 }
 .audio {
   display: flex;
@@ -292,13 +325,35 @@ font-weight: bold;
 
   padding: 2% 2%;
 }
-/*menu pak
+
 .menu {
-  width: 45%;
-  height: 100px;
-  background: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  z-index: 1;
-}*/
+  display: none; /* Mengatur menu awalnya menjadi tersembunyi */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  z-index: 1000; /* Jangan lupa menambahkan z-index agar menu tetap di atas konten lain */
+  opacity: 0.7;
+  padding: 8px;
+  overflow: scroll;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  padding: 10px 0;
+  font-weight: bold;
+  margin: auto;
+  font-size: 15px;
+}
+
+.menu.toggle {
+  display: flex;
+  /* Menampilkan menu saat class 'toggle' aktif */
+  flex-direction: column;
+}
 
 }

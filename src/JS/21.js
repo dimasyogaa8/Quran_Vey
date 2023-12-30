@@ -1,6 +1,6 @@
 const au = document.querySelector('.audio');
 const cont = document.querySelector('.container')
-fetch('https://quran-api.santrikoding.com/api/surah/16')
+fetch('https://quran-api.santrikoding.com/api/surah/21')
     .then(response => response.json())
     .then(data => {
       const sur = data.ayat;
@@ -10,7 +10,7 @@ fetch('https://quran-api.santrikoding.com/api/surah/16')
     <source src="${audio}" type="audio/mpeg">
     Browsermu tidak mendukung tag audio, upgrade donk!
   </audio>`;
-      for (var i = 0; i < 128; i++) {
+      for (var i = 0; i < 112; i++) {
         const ayatDiv = document.createElement('div');
         const ayat = sur[i].ar;
         const arti = sur[i].idn;

@@ -154,7 +154,7 @@ var project = [
      tempat: 'Madaniyah',
      link: '/Module/22.html'
    },
-   /*{
+   {
      id: 22,
      nama:'',
      ayat: '',
@@ -210,7 +210,7 @@ var project = [
      tempat: '',
      link: ''
    },
-   {
+  /* {
      id: 30,
      nama: '',
      ayat: '',
