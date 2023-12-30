@@ -58,6 +58,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 20px;
+  margin-top: 5%;
 }
 .content-box {
   width: 100%;
@@ -231,6 +232,7 @@ font-weight: bold;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 20px;
+  margin-top: 15%;
 }
 .content-box {
   width: 100%;
