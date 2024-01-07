@@ -4,8 +4,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+.darkmode .btn-card {
+      color: #fff; /* Warna teks pada mode gelap */
+}
+.darkmode .card {
+  border: 1px solid white;
+}
+.darkmode {
+  background: #0F0F0F;
+  color: #FFFFFF;
+}
+.cards {
+  color: white;
+}
 body {
-  background: #D2E3C8;
+  background: white;
   color: black;
 }
 .Navbar {
@@ -72,7 +85,7 @@ body {
 .card {
   width: 45%;
   height: 150px;
-  border: 1px solid #4F6F52;
+  border: 1px solid black;
   margin: 1%  2%;
   border-radius: 8px;
   display: flex;
@@ -115,10 +128,11 @@ font-weight: bold;
   color: grey;
 }
 .card:hover {
-  box-shadow: 9px 9px 0px rgba(115, 144, 114, 1);
-  background: rgba(115, 144, 114, 0.8);
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(15px);
   color: white;
+
 }
 .surah {
   width: 95%;
@@ -198,6 +212,9 @@ font-weight: bold;
   /* Menampilkan menu saat class 'toggle' aktif */
   flex-direction: column;
 }
+.btndark {
+  margin: auto 5%;
+}
 @media (max-width: 760px) {
 .Navbar {
   width: 100%;
@@ -258,7 +275,7 @@ font-weight: bold;
 .card {
   width: 45%;
   height: 100px;
-  border: 1px solid #4F6F52;
+  border: 1px solid black;
   margin: 1%  1%;
   border-radius: 8px;
   text-align: center;
@@ -296,8 +313,8 @@ font-weight: bold;
 }
 
 .card:hover {
-  box-shadow: 5px 5px 0px rgba(115, 144, 114, 1);
-  background: rgba(115, 144, 114, 0.8);
+  box-shadow: 5px 5px 0px rgba(255, 255, 255, 1);
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(15px);
   color: white;
   
